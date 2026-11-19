@@ -378,10 +378,6 @@ Observed scaling:
 | 126% | 3 → 4 |
 
 The HPA increased the number of Flask replicas from 2 to 4 in response to CPU load.
-<img width="1438" height="292" alt="image" src="https://github.com/user-attachments/assets/91e0ba3c-4022-431a-b615-719d18476e6c" />
-<img width="1370" height="214" alt="image" src="https://github.com/user-attachments/assets/133cf0be-b619-4582-bed1-06e1222ead72" />
-<img width="1262" height="220" alt="image" src="https://github.com/user-attachments/assets/be8da5a1-2966-46db-b538-e073977b0c33" />
-
 
 
 ### Scale-down test
@@ -469,14 +465,17 @@ Replace \`<PORT>\` with the port from the Minikube service URL.
 Screenshots demonstrating deployment and autoscaling are stored in the \`screenshots/\` directory.
 
 ### HPA Scale-up
+<img width="1370" height="214" alt="image" src="https://github.com/user-attachments/assets/897953e5-8cbe-4f6b-9109-99c62ef9a895" />
 
 Shows CPU utilization exceeding the configured target and the Flask replicas increasing from 2 to 4.
 
 ### HPA Scale-down
+<img width="1262" height="220" alt="image" src="https://github.com/user-attachments/assets/317c0a92-b4fd-43e8-97d4-13e2491cf06f" />
 
 Shows CPU utilization returning to normal and replicas decreasing back to 2.
 
 ### Flask replicas
+<img width="1438" height="292" alt="image" src="https://github.com/user-attachments/assets/d6ca1e37-2973-4176-870a-8006ce748dd0" />
 
 Shows the Flask pods in their stable state.
 
