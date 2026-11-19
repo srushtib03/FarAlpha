@@ -378,6 +378,10 @@ Observed scaling:
 | 126% | 3 → 4 |
 
 The HPA increased the number of Flask replicas from 2 to 4 in response to CPU load.
+<img width="1438" height="292" alt="image" src="https://github.com/user-attachments/assets/91e0ba3c-4022-431a-b615-719d18476e6c" />
+<img width="1370" height="214" alt="image" src="https://github.com/user-attachments/assets/133cf0be-b619-4582-bed1-06e1222ead72" />
+![Uploading image.png…]()
+
 
 ### Scale-down test
 
